@@ -1,6 +1,6 @@
 {
   "name": "sheet2json",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Node.js package for converting each sheet in an .xls or .xlsx file to a .json file.",
   "main": "index.js",
   "scripts": {
