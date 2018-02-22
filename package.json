@@ -1,0 +1,38 @@
+{
+  "name": "sheet2json",
+  "version": "0.0.1",
+  "description": "A Node.js package for converting each sheet in an .xls or .xlsx file to a .csv file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarryStevens/sheet2json.git"
+  },
+  "keywords": [
+    "xls",
+    "csv",
+    "xlsx",
+    "npm",
+    "node",
+    "convert"
+  ],
+  "author": "Harry Stevens <harryjosephstevens@gmail.com> (http://harryjstevens.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HarryStevens/sheet2json/issues"
+  },
+  "homepage": "https://github.com/HarryStevens/sheet2json#readme",
+  "dependencies": {
+    "d3-dsv": "^1.0.8",
+    "xlsx": "^0.12.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.0.1"
+  }
+}
